@@ -26,9 +26,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['djanghellotodoapp-303db58d78b3.herokuapp.com']
+ALLOWED_HOSTS = ['https://djanghellotodoapp-303db58d78b3.herokuapp.com/']
 
 
 # Application definition
