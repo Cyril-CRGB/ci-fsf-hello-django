@@ -28,7 +28,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['https://djanghellotodoapp-303db58d78b3.herokuapp.com/']
+ALLOWED_HOSTS = ['djanghellotodoapp-303db58d78b3.herokuapp.com', 'localhost']
 
 
 # Application definition
